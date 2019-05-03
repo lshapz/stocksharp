@@ -1,0 +1,1 @@
+﻿1) get the Stock Model / Ticker namespace to make more sense outside the 
