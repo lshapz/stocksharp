@@ -11,6 +11,11 @@ autom4te.cache/
 tarballs/
 test-results/
 
+
+../jsbackend/node_modules/
+
+/node_modules/
+
 # Mac bundle stuff
 *.dmg
 *.app
