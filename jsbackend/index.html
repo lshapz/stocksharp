@@ -1,0 +1,21 @@
+<html>
+<head></head>
+
+<body>
+    <H1> THIS IS A PAGE</H1>
+<ul></ul>
+
+
+</body>
+<script>
+var evtSource = new EventSource('IEXserver.js');
+var eventList = document.querySelector('ul');
+
+evtSource.onmessage = function(e) {
+  var newElement = document.createElement("li");
+    console.log(e);
+  newElement.textContent = "message: " + e.data;
+  eventList.appendChild(newElement);
+}
+</script>
+</html>
