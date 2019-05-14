@@ -13,8 +13,7 @@ test-results/
 
 
 ../jsbackend/node_modules/
-node_modules
-/node_modules/
+*node_modules
 
 # Mac bundle stuff
 *.dmg
